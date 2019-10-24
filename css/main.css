@@ -1,0 +1,693 @@
+@charset "UTF-8";
+
+/*
+Author:
+Marko Mitrović
+https://www.linkedin.com/in/marko-mitrović-119151bb
+*/
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+video {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.col-24-a {
+  width: 20%;
+  float: left;
+  padding: 80px 0 0;
+}
+
+.col-24-b {
+  width: 20%;
+  float: left;
+  padding: 80px 0 0;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-4-b {
+  width: 33.33%;
+  float: left;
+}
+
+.col-4-l {
+  width: 33.33%;
+  float: left;
+  clear: both;
+}
+
+.col-4-lr {
+  width: 33.33%;
+  float: left;
+}
+
+.col-4-r {
+  width: 33.33%;
+  float: right;
+}
+
+.col-3-a {
+  width: 25%;
+  float: left;
+}
+
+.col-3-b {
+  width: 25%;
+  float: right;
+}
+
+.col-3-c {
+  width: 25%;
+  float: left;
+}
+
+.left-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.right-image {
+  display: table-cell;
+}
+
+.left-image {
+  display: table-cell;
+}
+
+.right-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.mobile {
+  display: none;
+}
+
+.icon1 {
+  max-width: 141px;
+  margin: auto;
+}
+
+.icon2 {
+  max-width: 186px;
+  margin: auto;
+}
+
+.icon3 {
+  max-width: 154px;
+  margin: auto;
+}
+
+.icon4 {
+  max-width: 151px;
+  margin: auto;
+}
+
+.icon5 {
+  max-width: 151px;
+  margin: auto;
+}
+
+.icon7 {
+  max-width: 79px;
+  margin: 30px auto 30px;
+}
+
+.icon8 {
+  max-width: 76px;
+  margin: 30px auto 30px;
+}
+
+.icon9 {
+  max-width: 78px;
+  margin: 30px auto 30px;
+}
+
+.icon10 {
+  max-width: 79px;
+  margin: 30px auto 30px;
+}
+
+.icon11 {
+  max-width: 77px;
+  margin: 30px auto 30px;
+}
+
+.icon12 {
+  max-width: 78px;
+  margin: 30px auto 30px;
+}
+
+.black {
+  background-color: #000;
+  margin-top: -45px;
+}
+
+.sand {
+  background-color: #efefef;
+}
+
+.purple {
+  background-color: #6b479f;
+}
+
+.title-green-1 {
+  color: #44D62C;
+  text-align: center;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.title-green-3-c {
+  color: #44D62C;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0 30px 0;
+}
+
+.title-green-3-d {
+  color: #44D62C;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0 30px 0;
+}
+
+.title-green-7-cen {
+  color: #44D62C;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0 20px 0;
+}
+
+.title-green-5-cen {
+  color: #44D62C;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.text-gray {
+  color: #999;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.text-white {
+  color: #e6e6e6;
+  font-weight: 100;
+  font-size: 17px;
+  letter-spacing: 1.3px;
+}
+
+.text-gray-c {
+  color: #999;
+  font-weight: 100;
+  margin: 0 20px 0;
+  text-align: center;
+}
+
+.text-gray-d {
+  color: #999;
+  font-weight: 100;
+  margin: 0 20px 0;
+  text-align: center;
+}
+
+.text-gray-f {
+  color: #999;
+  font-weight: 100;
+  margin: 0 20px 0;
+  text-align: center;
+}
+
+.title-green-4 {
+  color: #44D62C;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.text-gray-second {
+  color: #2f2f2f;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+  width: 90%;
+}
+
+.text-gray-third {
+  color: #999;
+  font-weight: 100;
+}
+
+.group-a {
+  text-align: center;
+  margin: 27px 10% 0;
+  padding: 0 0 20px;
+}
+
+.group-b {
+  width: 25%;
+  position: relative;
+  bottom: 380px;
+  left: 66%;
+  height: 0;
+}
+
+.img5 {
+  margin-bottom: -27px;
+}
+
+.group-c {
+  background-color: #000;
+  overflow: auto;
+  padding: 10px 10px 10px;
+}
+
+.group-f {
+  background-color: #000;
+  overflow: auto;
+  padding: 50px 0 30px 10px;
+}
+
+.group-d {
+  background-color: #000;
+  overflow: auto;
+  padding: 10px 10px 10px;
+}
+
+.group-e {
+  overflow: auto;
+  margin: 0 10% 0;
+  padding: 18px 0 20px;
+  text-align: left;
+  margin-top: 80px;
+}
+
+.group-animation {
+  text-align: center;
+  margin: -31px 0 0;
+  padding: 0 0 20px;
+}
+
+.animation {
+  max-width: 309px;
+  margin: auto;
+  margin-top: 55px;
+}
+
+.mobile-939 {
+  display: none;
+}
+
+.icon6 {
+  max-width: 146px;
+  margin: 40px auto 40px;
+}
+
+.logo {
+  max-width: 350px;
+  position: relative;
+  top: 590px;
+  margin: auto;
+}
+
+.black-second {
+  background-color: #000;
+  padding: 1px;
+}
+
+.title-gallery {
+  color: #44D62C;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 100;
+  margin: 50px 0 50px;
+}
+
+.gallery {
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.gallery img {
+  padding: 0;
+  width: 300px;
+}
+
+.gallery img:hover {
+  transition: 1s;
+  transform: scale(1.1) 
+}
+
+.gallery-mob {
+  display: none;
+}
+
+.background-main {
+  background-image: url(../images/img1.jpg);
+  height: 715px;
+  background-position: center;
+}
+
+.img6-425 {
+  display: none;
+}
+
+.black-first {
+  background-color: #000;
+  overflow: auto;
+}
+
+@media screen and (max-width:1199px){
+
+  .gallery {
+    display: none;
+  }
+
+  .gallery-mob {
+    display: block;
+    background-color: #000;
+    overflow: hidden;
+  }
+
+}
+
+@media screen and (max-width:1059px) {
+
+  .animation {
+    margin-top: 70px;
+  }
+
+  .col-3-c {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width:969px) {
+
+  .col-24-a {
+    width: 33.33%;
+  }
+
+  .col-24-b {
+    width: 50%;
+  }
+
+  .black-first {
+    padding: 0 0 15px;
+  }
+
+}
+
+@media screen and (max-width:939px) {
+
+  .desktop-939 {
+    display: none;
+  }
+
+  .mobile-939 {
+    display: block;
+  }
+
+  .group-b {
+    width: unset;
+    position: unset;
+    bottom: unset;
+    left: unset;
+    height: unset;
+    margin: 0 0 -22px;
+    padding: 1px 30px 35px;
+    background-color: #000;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width:929px) {
+
+  .background-main {
+    background-image: url(../images/img1-929.jpg);
+    height: 554px;
+    background-position: center;
+  }
+
+  .logo {
+    max-width: 300px;
+    top: 453px;
+  }
+
+}
+
+@media screen and (max-width:900px) {
+
+  .animation {
+    margin-top: 85px;
+  }
+
+}
+
+@media screen and (max-width:844px) {
+
+  .animation {
+    margin-top: 100px;
+  }
+
+}
+
+@media screen and (max-width:837px) {
+
+  .animation {
+    margin-top: 115px;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+
+  .col-3-a {
+    width: 50%;
+    float: left;
+    clear: both;
+  }
+
+  .col-3-b {
+    width: 50%;
+    float: right;
+  }
+
+  .col-4-l {
+    width: 100%;
+    float: left;
+    clear: both;
+  }
+
+  .col-4-lr {
+    width: 100%;
+    float: left;
+  }
+
+  .col-4-r {
+    width: 100%;
+    float: right;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .group-table {
+    display: unset;
+  }
+
+  .left-text {
+    display: unset;
+  }
+
+  .right-image {
+    display: unset;
+  }
+
+  .left-image {
+    display: unset;
+  }
+
+  .right-text {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .purple-second {
+    background-color: #6b479f;
+    padding: 1px 0 0;
+  }
+
+  .text-white {
+    color: #e6e6e6;
+    font-weight: 100;
+    font-size: 17px;
+    margin: 30px 5% 0;
+    text-align: center;
+  }
+
+  .group-c {
+    text-align: center;
+  }
+
+  .group-d {
+    text-align: center;
+  }
+
+  .group-f {
+    text-align: left;
+  }
+
+  .group-e {
+    text-align: unset;
+  }
+
+  .text-gray-second {
+    text-align: center;
+    margin: 0 20px 27px;
+    width: unset;
+  }
+
+  .animation {
+    max-width: 260px;
+    margin-top: 15px;
+  }
+
+  .icon6 {
+    margin: 40px auto 27px;
+  }
+
+  .background-main {
+    background-image: url(../images/img1-767.jpg);
+    height: 460px;
+    background-position: center;
+  }
+
+  .logo {
+    max-width: 270px;
+    top: 360px;
+  }
+
+  .title-green-5-cen {
+    text-align: center;
+    margin: 30px 0 -10px;
+  }
+
+  .black-first {
+    padding: 0 0 30px;
+  }
+
+}
+
+@media screen and (max-width:599px) {
+
+  .col-24-a {
+    width: 100%;
+  }
+
+  .col-24-b {
+    width: 100%;
+  }
+
+  .col-3-a {
+    width: 100%;
+    float: left;
+  }
+
+  .col-3-b {
+    width: 100%;
+    float: right;
+  }
+
+  .col-4-b {
+    width: 100%;
+    float: left;
+  }
+
+  .animation {
+    max-width: 250px;
+  }
+
+  .black-first {
+    padding: 0 0 55px;
+  }
+
+}
+
+@media screen and (max-width:425px) {
+
+  .col-3-c {
+    width: 100%;
+  }
+
+  .background-main {
+    background-image: url(../images/img1-425.jpg);
+    height: 355px;
+    background-position: center;
+  }
+
+  .logo {
+    max-width: 250px;
+    top: 275px;
+  }
+
+  .img6 {
+    display: none;
+  }
+
+  .img6-425 {
+    display: block;
+  }
+
+  .animation {
+    max-width: 230px;
+    margin: 10px auto 0;
+    padding: 0 0 5px;
+  }
+
+}
